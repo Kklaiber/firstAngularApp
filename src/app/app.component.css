@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(13, 146, 146);
+}
+
+#header{
+    text-align:center;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: rgb(4, 156, 202);
+}
+
+#header img{
+    width: 700px;
+    height: 300px;
+    border:1px solid black;
+    box-shadow: 2px 5px 2px rgb(71, 71, 71);
+}
+
+#city{
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#tagLine{
+    display: flex;
+    /* justify-content: flex-end; */
+    color: rgba(255, 0, 0, 0.767);
+    font-size: 20px;
+    font-weight: bolder;
+    margin:0px,25px,0px,25px;
+    /* transform: rotate(30deg); */
+
+}
+
+#aboutMe{
+    color: rgba(31, 31, 236, 0.87);
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+app-skills{
+    text-align: center;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: white;
+
+}
