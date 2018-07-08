@@ -1,0 +1,25 @@
+li {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    
+    background-color: rgba(100, 102, 92, 0.753);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin: 10px 220px 15px;
+    border-radius: 20px;
+    width: 700px;
+}
+h2 {
+    font-weight: bolder;
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 156, 202);
+    
+}
+
+/* #contacts{
+    background-color: yellow;
+    
+} */
