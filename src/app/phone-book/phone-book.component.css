@@ -4,30 +4,43 @@
 form input {
     outline-width: 0;
     border-style: none;
+    text-align: center;
+
 }
 
-form textarea {
-    outline-width: 0;
-    border-style: none;
-}
+
 
 form div {
     margin-bottom: 5px;
-    text-align: center;
+    text-align: start ;
+    color: rgb(14, 105, 223);
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
-h3 {
-    text-align: center;
-}
+
+
 
 input.ng-invalid.ng-touched,
 textarea.ng-invalid.ng-touched {
-    border-top-style: none;
-    border-left-style: none;
-    border-right-style: none;
-    border-bottom: 2px solid red;
+    border-top:2px solid rgb(255, 71, 47);
+    border-left: 2px solid rgb(255, 71, 47);
+    border-right: 2px solid rgb(255, 71, 47);
+    border-bottom: 2px solid rgb(255, 71, 47);
 }
 
 input.ng-valid.ng-touched,
 textarea.ng-valid.ng-touched {
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid rgb(8, 248, 0);
+    border-top:2px solid rgb(8, 248, 0);  
+    border-left: 2px solid rgb(8, 248, 0);
+    border-right: 2px solid rgb(8, 248, 0);
+    border-bottom: 2px solid rgb(8, 248, 0);
+    
+}
+button{
+    color: rgb(14, 105, 223);
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 12px;
 }

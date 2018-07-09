@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { getOrCreateChangeDetectorRef } from '@angular/core/src/render3/di';
 import { Contact } from '../models/contact';
+import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -34,5 +35,8 @@ export class ContactsService {
     }
   ]
 
+  getContacts = (): Observable<Contact[]> => {
+    return of(this.contacts);
+  }
   constructor() { }
 }

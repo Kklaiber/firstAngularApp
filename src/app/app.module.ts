@@ -21,7 +21,6 @@ import { PhoneBookComponent } from './phone-book/phone-book.component';
     GreetingComponent,
     ContactFormComponent,
     PhoneBookComponent,
-    
   ],
   imports: [
     BrowserModule, FormsModule

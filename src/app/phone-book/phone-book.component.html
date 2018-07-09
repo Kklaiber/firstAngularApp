@@ -1,22 +1,22 @@
 <form (ngSubmit)="onSubmit()">
   <div>
     <label for="firstName">First Name: </label>
-    <input type= "text" placeholder="First Name" name="firstName" required [(ngModel)] = "model.firstName">
+    <input type= "text" placeholder="First Name" name="firstName" required [(ngModel)] = "addContact.firstName">
   </div>
 
   <div>
     <label for="lastName">Last Name: </label>
-    <input type= "text" placeholder="Last Name" name="lastName" required [(ngModel)] = "model.lastName">
+    <input type= "text" placeholder="Last Name" name="lastName" required [(ngModel)] = "addContact.lastName">
   </div>
 
   <div>
     <label for="email">Email: </label>
-    <input type="text" placeholder="Email" name="email" required [(ngModel)] = "model.email">
+    <input type="text" placeholder="Email" name="email" required [(ngModel)] = "addContact.email">
   </div>
 
   <div>
     <label for="phoneNumber">Phone Number: </label>
-    <input type="text" placeholder="Phone Number" name="phoneNumber" required [(ngModel)] = "model.phoneNumber">
+    <input type="text" placeholder="Phone Number" name="phoneNumber" required [(ngModel)] = "addContact.phoneNumber">
   </div>
   
   <div>

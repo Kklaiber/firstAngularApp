@@ -7,10 +7,22 @@ form textarea{
     outline-width: 0;
     border-style: none;
 }
+#submit{
+    color: rgb(14, 105, 223);
+    background-color: rgb(164, 244, 255);
+    font-weight: bolder;
+    font-size:15px;
+    padding: 10px;
+    border-radius: 12px;
+
+}
+
 
 form div {
     margin-bottom: 5px;
-    text-align: center;
+    text-align: start;
+    color: rgb(14, 105, 223);
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 h3{
@@ -32,3 +44,4 @@ textarea.ng-valid.ng-touched{
     border-bottom: 2px solid rgb(0, 214, 214);
     border-top: 2px solid rgb(0, 214, 214);
 }
+
